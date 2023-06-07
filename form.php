@@ -11,7 +11,7 @@
 
     <form action="receiver.php" method="post">
 
-        <input type="text" name="paragraph" placeholder="Inserisci del testo">
+        <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
 
         <input type="text" name="toBlur" placeholder="Inserisci la parola da censurare">
 

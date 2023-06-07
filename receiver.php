@@ -25,5 +25,11 @@
         <?php echo $toBlur; ?>
     </div>
 
+    <h1>TESTO CENSURATO</h1>
+    <div>
+        Il testo censurato è: <br>
+        <?php echo str_ireplace($toBlur, "***", $paragraph); ?>
+    </div>
+
 </body>
 </html>
